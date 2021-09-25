@@ -14,7 +14,7 @@ library(haven)
 Read in the litters dataset. 
 
 ```{r}
-litters_df = read.csv("./Data/FAS_litters.csv")
+litters_df = read_csv("./Data/FAS_litters.csv")
 litters_df = janitor::clean_names(litters_df)
 ```
 
@@ -51,5 +51,12 @@ pulse_df = read_sas("./Data/public_pulse_data.sas7bdat")
 pulse_df
 ```
 
+## Comparison with Base R
+
+what about 'read.csv' ? 
+
+```{r}
+litters_base = read.csv("./Data/FAS_litters.csv")
+```
 
 
