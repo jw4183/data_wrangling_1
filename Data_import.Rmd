@@ -25,3 +25,11 @@ litters_df
 ```
 
 
+## Options to read_csv
+
+Check out '?read_csv()' for more information
+
+```{r}
+litters_df = read.csv("./Data/FAS_litters.csv", )
+```
+
