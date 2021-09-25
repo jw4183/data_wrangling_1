@@ -59,4 +59,13 @@ what about 'read.csv' ?
 litters_base = read.csv("./Data/FAS_litters.csv")
 ```
 
+## Exporting data
+
+Export the mlb sub_table
+
+```{r}
+write_csv(mlb_df, "./Data/mlb_subtable.csv")
+```
+
+
 

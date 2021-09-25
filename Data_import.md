@@ -124,3 +124,11 @@ what about ‘read.csv’ ?
 ``` r
 litters_base = read.csv("./Data/FAS_litters.csv")
 ```
+
+## Exporting data
+
+Export the mlb sub\_table
+
+``` r
+write_csv(mlb_df, "./Data/mlb_subtable.csv")
+```
